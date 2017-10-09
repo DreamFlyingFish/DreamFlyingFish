@@ -1,0 +1,54 @@
+# Site settings
+# 网站设置
+title: 无脸男的博客
+email: flyingfhsi@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: http://www.liuxiaohei.com # the base hostname & protocol for your site
+rss_url: /me.html
+author: Xiao Hei
+
+# Sidebar filter
+# 边栏过滤器
+# Choose 'tag' or 'category' as filter in sidebar.
+# 标签或类 作为过滤器在侧栏
+filter: 'category'
+recent_num: 20
+
+# Social account
+# 社交账号
+twitter: 
+weibo: 
+github: flyingfhsi
+instagram: 
+linkedin: 
+
+# avatar and Favicon
+# 头像和图标
+avatar:  /assets/img/timssg.jpg
+favicon:  /assets/img/www.ico.ico
+
+# disqus config
+disqus:
+  shortname: suyan-zh
+
+# google analytics config
+#ga:
+#  id: UA-54767140-1
+#  url: yansu.org
+
+# Build settings
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+highlighter: rouge
+mathjax: disabled
+sass:
+  style: compressed
+
+# Jekyll Plugin
+# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
